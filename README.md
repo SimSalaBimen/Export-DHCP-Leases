@@ -2,7 +2,7 @@
 
 This repository contains a PowerShell script to export all DHCP leases from a DHCP server into a CSV file. The script is designed to work seamlessly with Windows DHCP servers and outputs the data in a structured format for further analysis or reporting.
 
-Features
+Features:
 Exports DHCP Lease Information: Retrieves all current leases from the DHCP server.
 Customizable Output: Saves the data to a CSV file with the following fields:
 - ScopeId
@@ -35,7 +35,7 @@ Output File Path: Modify the $outputFile variable to specify your desired CSV fi
 Delimiter: Change the $delimiter variable in the script to use a different delimiter (e.g., , or |).
 Filter Leases: Add PowerShell filtering to include/exclude specific leases based on criteria.
 
-Troubleshooting
+Troubleshooting:
 Missing DHCPServer Module: Ensure the DHCP Server tools are installed. Install via PowerShell:
 Install-WindowsFeature -Name RSAT-DHCP
 
